@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+    color: #F1EEE9;
+}
+.App .heading{
+    color: #F1EEE9;
+    background-color: #73777B;
+}
+.taskbg{
+    background-color: #555;
+}
+.taskbg .done{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.taskbg .iconswrap span{
+    cursor: pointer; 
+    color: #00ff89;
+}
+.taskbg .iconswrap span:hover{
+    color: yellow;
+}
+.taskbg .tasknumber{
+    border-color: #999 !important;
+    color: #999;
+    font-size: small !important;
+}
